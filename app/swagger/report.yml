@@ -1,0 +1,17 @@
+      summary: 'Obtenir le rapport financier'
+      description: 'Renvoie les revenus bruts, les dépenses et les revenus nets.'
+      responses:
+        '200':
+          description: 'Réponse réussie'
+          schema:
+            type: 'object'
+            properties:
+              gross-revenue:
+                type: 'number'
+                description: 'Revenus bruts'
+              expenses:
+                type: 'number'
+                description: 'Dépenses'
+              net-revenue:
+                type: 'number'
+                description: 'Revenus nets'

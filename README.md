@@ -19,7 +19,7 @@ Ce projet est une application web permettant de gérer des transactions et de g�
 
 - Pour démarrer l'application : `python run.py`.
 - Pour lancer les tests : `python -m unittest`.
-
+- Pour consulter la documentation swagger, lancez http://127.0.0.1:5000/apidocs/
 
 ### Hypothèses
 - Les colonnes sont dans l'ordre suivant : Date, Type, Montant, Mémo.

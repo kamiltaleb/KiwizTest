@@ -1,0 +1,10 @@
+summary: Ajoute de nouvelles transactions
+description: Télécharge un fichier CSV contenant les transactions
+parameters:
+  - in: formData
+    name: file
+    type: file
+    description: Le fichier CSV à télécharger.
+responses:
+  200:
+    description: Succès

@@ -1,0 +1,9 @@
+# created by virtualenv automatically
+# and should not be checked in to version control.
+venv/
+Scripts/
+Lib/
+pyvenv.cfg
+__pycache__/
+
+
