@@ -32,7 +32,6 @@ def transactions():
     # on convertit la colonne Amount($) en float
     data['Amount($)'] = pd.to_numeric(data['Amount($)'])
     
-    # on convertit la colonne Date en datetime
     return jsonify(status="success", message="Data uploaded successfully"), 200
 
 

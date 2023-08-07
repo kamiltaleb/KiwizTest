@@ -18,7 +18,7 @@ Ce projet est une application web permettant de gérer des transactions et de g�
 ## Exécuter le code
 
 - Pour démarrer l'application : `python run.py`.
-- Pour lancer les tests : `python -m unittest`.
+- Pour lancer les tests : `python -m unittest discover tests`.
 - Pour consulter la documentation swagger, lancez http://127.0.0.1:5000/apidocs/
 
 ### Hypothèses
